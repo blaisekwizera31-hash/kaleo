@@ -1,8 +1,9 @@
-import Demo from "./Components/Navbar";
+import Navbar from "./Components/Navbar";
+
 const App = () => {
   return (
     <div>
-      <Demo></Demo>
+      <Navbar></Navbar>
     </div>
   );
 };

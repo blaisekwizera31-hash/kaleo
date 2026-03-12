@@ -1,0 +1,16 @@
+.nav-container {
+  padding: 20px;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #2d3748;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #3182ce;
+}
