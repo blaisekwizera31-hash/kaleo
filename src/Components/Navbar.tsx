@@ -1,11 +1,15 @@
-import { Button, HStack } from "@chakra-ui/react"
+import { HStack } from "@chakra-ui/react"
 
-const Demo = () => {
+const Navbar = () => {
+  const navigation = ["Ranch life", "About us", "Events", "Directions", "Houses"]
+
   return (
     <HStack>
-      <Button>Click me</Button>
-      <Button>Click me</Button>
+      {navigation.map((item, index) => {
+        return <a key={index}>{item}</a>
+      })}
     </HStack>
   )
 }
-export default Demo;
+
+export default Navbar
