@@ -1,11 +1,11 @@
-import React from 'react'
+import { Button, HStack } from "@chakra-ui/react"
 
-const Navbar = () => {
+const Demo = () => {
   return (
-    <div>
-        <h1>Navbar</h1>
-    </div>
+    <HStack>
+      <Button>Click me</Button>
+      <Button>Click me</Button>
+    </HStack>
   )
 }
-
-export default Navbar
+export default Demo;

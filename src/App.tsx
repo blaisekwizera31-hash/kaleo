@@ -1,11 +1,10 @@
-import { Button, HStack } from "@chakra-ui/react"
-
-const Demo = () => {
+import Demo from "./Components/Navbar";
+const App = () => {
   return (
-    <HStack>
-      <Button>Click me</Button>
-      <Button>Click me</Button>
-    </HStack>
-  )
-}
-export default Demo;
+    <div>
+      <Demo></Demo>
+    </div>
+  );
+};
+
+export default App;
