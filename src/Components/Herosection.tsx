@@ -1,12 +1,13 @@
 import Navbar from "./Navbar"
 import Belownav from "./kaleomain"
 import "./Herosection.css"
+import { Box } from "@chakra-ui/react"
 const Herosection =() =>{
     return(
-        <div>
+        <Box>
             <Navbar></Navbar>
             <Belownav></Belownav>
-        </div>
+        </Box>
     )
 }
 

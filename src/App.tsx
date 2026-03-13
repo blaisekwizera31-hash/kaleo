@@ -1,4 +1,4 @@
-
+import "./index.css"
 import Herosection from "./Components/Herosection"
 
 const App = () => {
