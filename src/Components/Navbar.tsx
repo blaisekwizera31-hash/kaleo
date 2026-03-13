@@ -27,7 +27,7 @@ const Navbar = () => {
       <Button
         bg="black"
         color="white"
-        border="2px solid red"
+        border="2px solid white"
         ms="auto"
         me="10"
         mt="10"

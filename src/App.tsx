@@ -1,11 +1,10 @@
-import Navbar from "./Components/Navbar";
-import Belownav from "./Components/kaleomain";
+
+import Herosection from "./Components/Herosection"
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Belownav />
+      <Herosection></Herosection>
     </div>
   );
 };
