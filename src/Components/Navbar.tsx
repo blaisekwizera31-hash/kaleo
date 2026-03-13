@@ -1,6 +1,5 @@
 import { Button, Heading, HStack } from "@chakra-ui/react";
-import "./Navbar.css";
-import {Star} from "lucide-react" 
+import { Star } from "lucide-react";
 const Navbar = () => {
   const navigation = [
     "Ranch life",
@@ -20,13 +19,21 @@ const Navbar = () => {
       </Heading>
       {navigation.map((item, index) => {
         return (
-          <a key={index} className="nav-link" >
+          <a key={index} className="nav-link">
             {item}
           </a>
         );
       })}
-      <Button bg="black" color="white" border="2px solid red" ms="auto" me="10" mt="10">Book a visit 
-         <Star size={12} fill="white"></Star>
+      <Button
+        bg="black"
+        color="white"
+        border="2px solid red"
+        ms="auto"
+        me="10"
+        mt="10"
+      >
+        Book a visit
+        <Star size={12} fill="white"></Star>
       </Button>
     </HStack>
   );

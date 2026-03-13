@@ -1,9 +1,11 @@
 import Navbar from "./Components/Navbar";
+import Belownav from "./Components/kaleomain";
 
 const App = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar />
+      <Belownav />
     </div>
   );
 };
