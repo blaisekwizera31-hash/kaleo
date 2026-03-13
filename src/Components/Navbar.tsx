@@ -11,10 +11,10 @@ const Navbar = () => {
 
   return (
     <HStack className="nav-container" gap={21} ps={50}>
-      <Heading as="h5" pe="2">
+      <Heading as="h6" pe="2">
         KL
       </Heading>
-      <Heading as="h5" pe="2">
+      <Heading as="h6" pe="2">
         |
       </Heading>
       {navigation.map((item, index) => {

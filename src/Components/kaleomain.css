@@ -1,0 +1,21 @@
+h1{
+text-align: center;
+height:0px;
+font-size: 300px;
+font-family: "Times New Roman";
+margin-top: 100px
+}
+
+p{
+    text-align: center;
+    font-size:20px;
+    margin-top: 400px;
+    justify-content:center;
+
+}
+
+h5{
+    text-align:center;
+    margin-top:250px;
+    font-size:20px;
+}
